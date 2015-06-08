@@ -33,7 +33,7 @@ public class Prueba {
        
    
     }
-    etiqueta.setText(builder.toString());
+    
     }
     
 }
