@@ -3,19 +3,14 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Herencia;
+package examenparcial;
 
 /**
  *
- * @author T-107
+ * @author campitos
  */
-public class Delfin extends Animal implements ComportamientoRuido{
-
-    @Override
-    public String hacerRuido() {
-        return "girigirigiri";
+public class ExcepcionLibros  extends Exception{
+    public ExcepcionLibros(){
+        super("Error en la cantidad");
     }
 }
-
-    
-

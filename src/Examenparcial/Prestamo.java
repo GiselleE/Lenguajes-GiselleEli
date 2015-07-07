@@ -1,21 +1,19 @@
+package examenparcial;
+
 /*
  * To change this license header, choose License Headers in Project Properties.
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Herencia;
 
 /**
  *
- * @author T-107
+ * @author campitos
  */
-public class Delfin extends Animal implements ComportamientoRuido{
-
-    @Override
-    public String hacerRuido() {
-        return "girigirigiri";
-    }
-}
-
+public class Prestamo {
     
-
+    public void prestarLibros(Usuario u)throws ExcepcionLibros{
+        u.prestar();
+    }
+    
+}
